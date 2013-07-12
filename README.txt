@@ -31,7 +31,7 @@ our software is just intended to estimate the trajectory. However, for the sake
 of simplicity we have included the matcheds of a partial sequence from the KITTI
 benchmark http://www.cvlibs.net/datasets/kitti/
 
-For any doubt, comment, suggestion or bug just send my an e-mail to gros@cvc.uab.es
+For any doubt, comment, suggestion or bug just send me an e-mail to gros@cvc.uab.es
 
 2. Software compilation and execution
 --------------------------------------
