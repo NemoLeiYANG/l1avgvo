@@ -28,7 +28,7 @@
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include "opencv2/core/core.hpp"
-#include "opencv2/core/opengl_interop.hpp"
+#include "opencv2/core/opengl.hpp"
 #include "opencv2/highgui/highgui.hpp"
 #include "ArcBall.h"
 
@@ -81,7 +81,7 @@ class Render
 			this->width = width;
 			this->height = height;
 
-			namedWindow(name, WINDOW_OPENGL | CV_WINDOW_AUTOSIZE);
+			namedWindow(name, WINDOW_OPENGL);
 			resizeWindow(name, width, height);
 
 			setOpenGlContext(name);

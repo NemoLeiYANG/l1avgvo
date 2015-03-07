@@ -200,12 +200,12 @@
 				gluOrtho2D(minX, maxX, minY, maxY);
 
 				for(int i=0; i<arr_landmarks.size(); i++)
-					render(arr_landmarks[i], RenderMode::POINTS, CV_RGB(250, 230, 230));
+					render(arr_landmarks[i], POINTS, Scalar(250, 230, 230));
 
 				glLineWidth(5.0);
 
-				render(arr_poses, RenderMode::LINE_STRIP, CV_RGB(255, 0, 0));
-				render(arr_head, RenderMode::TRIANGLES, CV_RGB(0, 255, 0));
+				render(arr_poses, LINE_STRIP, Scalar(255, 0, 0));
+				render(arr_head, TRIANGLES, Scalar(0, 255, 0));
 			}
 	};
 
